@@ -6,10 +6,14 @@ printf("Enter the number to check :");
 scanf("%d",&a);
 if(a>0)
 {
-printf("The number is possitive");
+printf("The given number is possitive");
+}
+else if(a==0)
+{
+printf("The given number is NULL");
 }
 else
 {
-printf("The number is negative");
+printf("The given number is negative");
 }
 }
